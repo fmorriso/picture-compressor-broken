@@ -14,8 +14,8 @@ namespace PictureCompressor
         {
             Console.WriteLine("Start");
             const string INPUT_PATH = @"S:\Cats\ValleyVet stuff";
-            const string OUTPUT_PATH = @"S:\Cats\ValleyVet stuff\small50";
-            const int COMPRESSION_QUALITY = 50;
+            const string OUTPUT_PATH = @"S:\Cats\ValleyVet stuff\small33";
+            const int COMPRESSION_QUALITY = 33;
 
             if (Directory.Exists(INPUT_PATH) && Directory.Exists(OUTPUT_PATH))
             {

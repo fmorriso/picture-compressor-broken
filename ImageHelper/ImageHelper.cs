@@ -33,6 +33,7 @@ namespace ImageUtilities
                 throw new ArgumentOutOfRangeException("quality must be between 0 and 100.");
             }
 
+            Console.WriteLine($"Compressing {InputFile}");
             Image returnValue = Image.FromFile(InputFile, true);
 
             //
