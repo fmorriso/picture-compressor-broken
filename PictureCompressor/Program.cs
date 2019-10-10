@@ -10,12 +10,13 @@ namespace PictureCompressor
 {
     class Program
     {
+        private const int COMPRESSION_QUALITY = 25;
         static void Main(string[] args)
         {
             Console.WriteLine("Start");
-            const string INPUT_PATH = @"S:\Cats\ValleyVet stuff";
-            const string OUTPUT_PATH = @"S:\Cats\ValleyVet stuff\small33";
-            const int COMPRESSION_QUALITY = 33;
+            const string INPUT_PATH = @"C:\Users\fpmor\OneDrive\travel\2019-10-Elkins-WV\pictures\corrected";
+            string OUTPUT_PATH = @"C:\Users\fpmor\OneDrive\travel\2019-10-Elkins-WV\pictures\compressed-" +  COMPRESSION_QUALITY;
+            Console.WriteLine(OUTPUT_PATH);
 
             if (Directory.Exists(INPUT_PATH) && Directory.Exists(OUTPUT_PATH))
             {
