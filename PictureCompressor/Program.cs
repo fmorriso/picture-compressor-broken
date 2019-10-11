@@ -14,7 +14,8 @@ namespace PictureCompressor
         static void Main(string[] args)
         {
             const int COMPRESSION_QUALITY = 33;
-            const string INPUT_PATH = @"C:\Users\fpmor\OneDrive\Concrete Steps Repair";
+            // "C:\Users\fpmor\OneDrive\travel\2019-10-Elkins-WV\pictures\mls pics"
+            const string INPUT_PATH = @"C:\Users\fpmor\OneDrive\travel\2019-10-Elkins-WV\pictures\originals";
             Console.WriteLine("Start");
             
             // C:\Users\fpmor\OneDrive\2019 Driveway Pictures
