@@ -10,7 +10,7 @@ namespace PictureCompressor
 {
     class Program
     {
-        private const int COMPRESSION_QUALITY = 25;
+        private const int COMPRESSION_QUALITY = 50;
         static void Main(string[] args)
         {
             const int COMPRESSION_QUALITY = 33;
