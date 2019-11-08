@@ -25,7 +25,7 @@ namespace ImageUtilities
 
             if (string.IsNullOrEmpty(OutputFile))
             {
-                throw new FileNotFoundException("The input file must not be null or an empty string");
+                throw new FileNotFoundException("The output file must not be null or an empty string");
             }
 
             if (CompressionQuality < 0 || CompressionQuality > 100)
